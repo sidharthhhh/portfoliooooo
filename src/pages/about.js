@@ -68,7 +68,7 @@ const about = () => {
                             </p>
                         </div>
 
-                        <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark rounded-2xl
+                        <div className='col-span-3 relative h-max  border-2 border-solid border-dark rounded-2xl
                          bg-light p-8 dark:bg-dark dark:border-light
                          xl:col-span-4 md:order-1 md:col-span-8
                          '>

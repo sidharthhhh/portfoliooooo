@@ -52,7 +52,7 @@ const NavBar = () => {
 
   return (
     <header className='w-full px-32 py-8 font-medium flex items-center justify-between
-     dark:text-light relative z-10 lg:px-16 sm:px-8 lg:px-12'>
+     dark:text-light relative z-10 lg:px-16 sm:px-8'>
 
       <button className='flex-col justify-center items-center hidden lg:flex' onClick={handleClick}>
         <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm  ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
@@ -120,13 +120,13 @@ const NavBar = () => {
                 className="w-6 mr sm:mx-1"
               ><TwitterIcon />
               </motion.a>
-              <motion.a href="https://github.com" target={"_blank"} className="w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-" whileHover={{ y: -2 }}
+              <motion.a href="https://github.com/sidharthhhh" target={"_blank"} className="w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-" whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }} ><GithubIcon /></motion.a>
-              <motion.a href="https://linkdin.con" target={"_blank"} className="w-6 mx-3 sm:mx-" whileHover={{ y: -2 }}
+              <motion.a href="https://www.linkedin.com/in/sidharth-shukla-a7a32320a/" target={"_blank"} className="w-6 mx-3 sm:mx-" whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }} ><LinkedInIcon /></motion.a>
-              <motion.a href="https://twitter.com" target={"_blank"} className="w-6 mx-3 bg-light rounded-full sm:mx-" whileHover={{ y: -2 }}
+              <motion.a href="https://www.pinterest.ca/swayam1044/" target={"_blank"} className="w-6 mx-3 bg-light rounded-full sm:mx-" whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }} ><PinterestIcon /></motion.a>
-              <motion.a href="https://twitter.com" target={"_blank"} className="w-6 ml-3 sm:mx-" whileHover={{ y: -2 }}
+              <motion.a href="https://dribbble.com/sidharthhhhh" target={"_blank"} className="w-6 ml-3 sm:mx-" whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }} ><DribbbleIcon /></motion.a>
 
               <button onClick={() => setMode(mode === "light" ? "dark" : "light")}
