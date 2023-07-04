@@ -54,7 +54,7 @@ const Experience = () => {
 
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-4'>
                     <Details
-                        position="UI/UX DEVELOPER" company="TenSketch(UAN:TN02D0075823)"
+                        position="UI/UX DEVELOPER" company="TenSketch (UAN:TN02D0075823)"
                         CompanyLink="https://www.tensketch.com/"
                         time="04/2023-05/2023" address='Bhopal'
                         work="As an intern at Tensketch, I served as a UI and frontend developer in a collaborative team. I successfully
