@@ -9,6 +9,8 @@ import project1 from '../../public/images/projects/p1.jpg'
 import project2 from '../../public/images/projects/p2.jpg'
 import project3 from '../../public/images/projects/p3.jpg'
 import project4 from '../../public/images/projects/p4.jpg'
+import project5 from '../../public/images/projects/renter.png'
+import project6 from '../../public/images/projects/dance.png'
 import { motion } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -152,32 +154,24 @@ const projects = () => {
                                 type="Featured Project"
                             />
                         </div>
-                        {/* <div className='col-span-6 sm:col-span-12'>
+                        <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Crypto Screener Application"
-                                img={project1}
-                                summary=" Crypto Screener Application
-                            A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                            local currency."
-                                link="/"
-                                github="/"
+                                title="Renter"
+                                img={project5}
+                                link="https://renter.live/"
+                                github="https://github.com/sidharthhhh/renter"
                                 type="Featured Project"
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Crypto Screener Application"
-                                img={project1}
-                                summary=" Crypto Screener Application
-                            A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                            local currency."
-                                link="/"
-                                github="/"
+                                title="Dance Acedemy"
+                                img={project6}
+                                link="https://dance2.vercel.app/"
+                                github="https://github.com/sidharthhhh/Dance2"
                                 type="Featured Project"
                             />
-                        </div> */}
+                        </div>
                     </div>
 
 
