@@ -9,6 +9,8 @@ import article2 from "../../public/images/articles/mono.webp";
 import article3 from "../../public/images/articles/love.webp";
 import article4 from "../../public/images/articles/age.webp";
 import article5 from "../../public/images/articles/burn.jpg";
+import article6 from "../../public/images/articles/k8s1.avif";
+import article7 from "../../public/images/articles/k8s2.avif";
 import { useRef } from 'react';
 import TransitionEffect from '@/components/TransitionEffect';
 
@@ -117,6 +119,18 @@ const Articles = () => {
 
           <h2 className='font-bold text-4xl w-full text-center my-16 mt-32'>All Articles</h2>
           <ul>
+            <Article
+              title="Introduction to Kubernetes"
+              date="October 3, 2023"
+              link="https://sidharthhhh.hashnode.dev/introduction-to-kubernetes"
+              img={article6}
+            />
+            <Article
+              title="Architecture of Kubernetes"
+              date="October 4, 2023"
+              link="https://sidharthhhh.hashnode.dev/architecture-of-kubernetes"
+              img={article7}
+            />
             <Article
               title="Ageing: The Curse"
               date="April 23, 2023"
