@@ -76,7 +76,7 @@ const Experience = () => {
                     <Details
                         position="CODEBITE : The Hackathon" company="Sheryians Coding School"
                         CompanyLink="https://sheryians.com/"
-                        time="02/2023(3-days)" address='Bhopal'
+                        time="02/2023(4-days)" address='Bhopal'
                         work="I am proud to have secured the second position in a web development hackathon, where 
                         I collaborated with a talented team consisting of Ankur, Anshita, and Ayush. Together, we 
                         designed and developed a cutting-edge rental website. Leveraging Node.js for the backend,
