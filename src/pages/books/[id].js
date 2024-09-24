@@ -26,14 +26,14 @@ export default function BookDetail() {
       >
         Back to Books
       </button>
-      <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+      <div className="bg-white shadow-lg rounded-lg overflow-hidden  dark:bg-dark dark:text-light">
         <div className="flex sm:flex-col w-full">
-          <div className="w-1/2 p-6 border-r">
+          <div className="w-1/2 p-6 sm:w-full border-r sm:border-t lg:border-t-0">
             <h1 className="text-3xl font-bold mb-2">{book.title}</h1>
             <p className="text-xl text-gray-600 mb-4">by {book.author}</p>
             <div className="prose max-w-none" dangerouslySetInnerHTML={{ __html: book.content.slice(0, book.content.length / 2) }} />
           </div>
-          <div className="w-1/2 p-6">
+          <div className="w-1/2 p-6 sm:w-full border-r sm:border-t lg:border-t-0">
             <div className="prose max-w-none" dangerouslySetInnerHTML={{ __html: book.content.slice(book.content.length / 2) }} />
           </div>
         </div>
