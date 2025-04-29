@@ -53,6 +53,24 @@ const Experience = () => {
                  dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]' />
 
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-4'>
+
+                <Details
+                        position="DevOps Intern" company="Smarden"
+                        CompanyLink="https://www.tensketch.com/"
+                        time="04/2025-Present" address='Bahadurgarh,Haryana'
+                        work="Working on implementing pipeline and automation to make development and deployment process easy"
+                    />
+                <Details
+                        position="Cloud Intern" company="Cinntra Infotech Solutions"
+                        CompanyLink="https://www.cinntra.com/"
+                        time="01/2025-04/2025" address='Noida,UP'
+                        work="Managing cloud (AWS, Azure) and on-premises servers
+✅ Deploying applications, configuring SSL certificates, and ensuring security
+✅ Designing and optimizing server architecture for performance and cost-efficiency
+✅ Writing automation scripts to streamline server management
+✅ Monitoring servers, troubleshooting backend SQL and application issues
+✅ Managing database and instance backups with a strong recovery strategy"
+                    />
                     <Details
                         position="UI/UX DEVELOPER" company="TenSketch (UAN:TN02D0075823)"
                         CompanyLink="https://www.tensketch.com/"
@@ -63,7 +81,7 @@ const Experience = () => {
                     <Details
                         position="Traniee" company="Sheryians Coding School"
                         CompanyLink="https://sheryians.com/"
-                        time="2022-Present" address='Bhopal'
+                        time="2022-2023" address='Bhopal'
                         work="During my training at Sheryians Coding School, I have extensively honed my skills in 
                         web development. From foundational languages like HTML, CSS, and JavaScript to advanced tools
                          such as GitHub, Node.js, Express, MongoDB, Next.js, and React.js, I have gained a comprehensive
