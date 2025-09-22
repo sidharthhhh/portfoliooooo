@@ -43,10 +43,11 @@ jobs:
 
       # 7. Upload static output folder (`out/`) to GitHub Pages
       - name: Upload artifact for Pages
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: out  # next export generates static site here
 
       # 8. Deploy
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
+        id: deployment
+        uses: actions/deploy-pages@v4
