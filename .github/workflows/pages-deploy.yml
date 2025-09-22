@@ -39,9 +39,6 @@ jobs:
 
       # 6. Configure GitHub Pages
       - name: Configure GitHub Pages
-      - name: Configure GitHub Pages 
-        # You can try adding the enablement parameter, but it's better to configure it manually in the repository settings.
-        # with: enablement: true 
         uses: actions/configure-pages@v4
 
       # 7. Upload static output folder (`out/`) to GitHub Pages
