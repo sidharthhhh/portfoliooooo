@@ -16,4 +16,4 @@ phases:
 artifacts:
   files:
     - '**/*' # Package all files in the build directory
-  base-directory: dist
+  base-directory: out
