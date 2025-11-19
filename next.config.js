@@ -1,25 +1,10 @@
 /** @type {import('next').NextConfig} */
-
-const isGithubActions = process.env.GITHUB_ACTIONS || false
-
-let assetPrefix = ''
-let basePath = ''
-
-if (isGithubActions) {
-  const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, '')
-  assetPrefix = `/${repo}/`
-  basePath = `/${repo}`
-}
-
 const nextConfig = {
-  output: 'export',
-  assetPrefix: assetPrefix,
-  basePath: basePath,
+  output: 'export',           // 👈 Forces Next.js to generate the 'out' folder
   images: {
-    unoptimized: true,
+    unoptimized: true,        // 👈 Essential for S3 (disables server-side image optimization)
   },
+  // We removed basePath/assetPrefix because CloudFront serves your site at the root domain.
 }
 
-module.exports = nextConfig
-
-
+module.exports = nextConfig;
